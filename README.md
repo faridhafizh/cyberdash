@@ -18,11 +18,6 @@ Cybernetic-style dashboard template for your futuristic projects. `cyberdash` pr
 *   **Customizable:** Easily extendable and customizable to fit your specific data and needs.
 *   **(Optional) Animations:** Smooth transitions and animations powered by Anime.js (if you plan to use it like in CyberTube).
 
-## 🚀 Live Demo
-
-**(Optional: If you deploy it, e.g., on GitHub Pages)**
-[View Live Demo](https://faridhafizh.github.io/cyberdash/)
-
 ---
 
 ## 🛠️ Technologies Used
