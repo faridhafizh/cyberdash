@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CyberTube - Reimagined</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark"> <!-- Default to dark theme -->
+
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Dark/Light Mode" aria-label="Toggle Dark/Light Mode">
+    <i class="fas fa-sun"></i>
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Header -->
+  <header class="site-header">
+    <h1 class="site-title neon-text">CyberTube</h1>
+    <p class="site-subtitle">Futuristic Video Showcase</p>
+  </header>
+
+  <!-- Search Bar -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search videos by title or tag..." class="search-input">
+    <button class="search-button" aria-label="Search">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+
+  <!-- Video Grid -->
+  <main id="videoGrid" class="video-grid-container"></main>
+  <div id="noResults" class="no-results-message" style="display: none;">
+    <p>No videos found matching your criteria. Try a different search!</p>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    © <span id="currentYear"></span> CyberTube. Enhanced Design.
+  </footer>
+
+  <!-- Anime.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
